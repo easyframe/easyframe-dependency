@@ -1,0 +1,4 @@
+src
+target/**
+!target/*-exec.jar
+
