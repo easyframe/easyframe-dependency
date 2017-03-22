@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.easyframe</groupId>
     <artifactId>easyframe-dependency</artifactId>
-    <version>1.0.0-RC4</version>
+    <version>1.0.0-RC5</version>
     <packaging>pom</packaging>
     <description>Easyframe Dependencies</description>
 
@@ -17,7 +17,7 @@
 
         <spring-boot.version>1.5.2.RELEASE</spring-boot.version>
         <spring-cloud.version>Camden.SR6</spring-cloud.version>
-        <spring-boot-admin.version>1.4.5</spring-boot-admin.version>
+        <spring-boot-admin.version>1.4.6</spring-boot-admin.version>
     </properties>
 
     <dependencyManagement>
