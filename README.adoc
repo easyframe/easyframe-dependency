@@ -2,12 +2,12 @@
 
 == 对应版本依赖
 
-.1.0.0-RC5
+.1.0.0-RC6
 |===
 |Package |Version
 
 |spring-boot.version
-|1.5.2.RELEASE
+|1.5.3.RELEASE
 
 |spring-boot-admin.version
 |1.4.6
