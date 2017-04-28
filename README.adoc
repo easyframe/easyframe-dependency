@@ -2,7 +2,7 @@
 
 == 对应版本依赖
 
-.1.0.0-RC6
+.1.0.0-RC7
 |===
 |Package |Version
 
@@ -13,6 +13,6 @@
 |1.4.6
 
 |spring-cloud.version
-| Camden.SR6
+|Dalston.RELEASE
 |
 |===
