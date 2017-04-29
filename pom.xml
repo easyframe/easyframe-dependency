@@ -6,7 +6,7 @@
     <artifactId>easyframe-dependency</artifactId>
     <version>1.0.0-RC7</version>
     <packaging>pom</packaging>
-    <description>Easyframe Dependencies</description>
+    <description>Easyframe-Dependencies</description>
 
     <properties>
         <argLine>-Dfile.encoding=UTF-8</argLine>
@@ -80,7 +80,6 @@
         </pluginManagement>
     </build>
 
-    <!-- Maven仓库定义 -->
     <distributionManagement>
         <repository>
             <id>releases-wenwen</id>
