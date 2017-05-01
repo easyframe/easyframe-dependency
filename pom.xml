@@ -7,6 +7,37 @@
     <version>1.0.0-RC1</version>
     <packaging>pom</packaging>
     <description>Easyframe-Dependencies</description>
+    <url>https://github.com/easyframe/easyframe-dependencies</url>
+    <organization>
+        <name>EasyFrame</name>
+        <url>https://github.com/easyframe</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/easyframe/easyframe-dependencies</url>
+        <connection>scm:git:git://github.com/easyframe/easyframe-dependencies.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/easyframe/easyframe-dependencies.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>linzhaoming</id>
+            <name>Lin Zhaoming</name>
+            <email>teleyic at gmail.com</email>
+            <organization>EasyFrame</organization>
+            <organizationUrl>https://github.com/easyframe</organizationUrl>
+            <roles>
+                <role>Project lead</role>
+            </roles>
+        </developer>
+    </developers>
+    <prerequisites>
+        <maven>3.2.1</maven>
+    </prerequisites>
 
     <properties>
         <argLine>-Dfile.encoding=UTF-8</argLine>
