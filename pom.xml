@@ -8,7 +8,7 @@
     </parent>
     <groupId>io.github.easyframe</groupId>
     <artifactId>easyframe-dependency</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Easyframe-Dependencies</description>
     <url>https://github.com/easyframe/easyframe-dependency</url>
