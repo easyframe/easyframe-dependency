@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
     <groupId>io.github.easyframe</groupId>
     <artifactId>easyframe-dependency</artifactId>
-    <version>1.0.0-RC1</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Easyframe-Dependencies</description>
+    <url>https://github.com/easyframe/easyframe-dependency</url>
+    <organization>
+        <name>EasyFrame</name>
+        <url>https://github.com/easyframe</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/easyframe/easyframe-dependency</url>
+        <connection>scm:git:git://github.com/easyframe/easyframe-dependency.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/easyframe/easyframe-dependency.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>linzhaoming</id>
+            <name>Lin Zhaoming</name>
+            <email>teleyic at gmail.com</email>
+            <organization>EasyFrame</organization>
+            <organizationUrl>https://github.com/easyframe</organizationUrl>
+            <roles>
+                <role>Project lead</role>
+            </roles>
+        </developer>
+    </developers>
 
     <properties>
         <argLine>-Dfile.encoding=UTF-8</argLine>
@@ -103,15 +135,13 @@
     </build>
 
     <distributionManagement>
-        <repository>
-            <id>releases-wenwen</id>
-            <name>Local Nexus Repository</name>
-            <url>http://www.wenwenkj.com:8081/nexus/content/repositories/releases/</url>
-        </repository>
         <snapshotRepository>
-            <id>snapshots-wenwen</id>
-            <name>Local Nexus Repository</name>
-            <url>http://www.wenwenkj.com:8081/nexus/content/repositories/snapshots</url>
+            <id>sonatype-nexus-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
+        <repository>
+            <id>sonatype-nexus-releases</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
     </distributionManagement>
 </project>

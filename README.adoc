@@ -1,8 +1,12 @@
-= 通用依赖
+= easyframe-dependency
 
-== 对应版本依赖
+easyframe: Dependency
 
-.1.0.0-RC7
+Travis CI: image:https://travis-ci.org/easyframe/easyframe-dependency.svg?branch=develop[Status, link=https://travis-ci.org/easyframe/easyframe-dependency]
+
+== Marjor dependency
+
+.1.0.0
 |===
 |Package |Version
 
@@ -10,7 +14,7 @@
 |1.5.3.RELEASE
 
 |spring-boot-admin.version
-|1.4.6
+|1.5.0
 
 |spring-cloud.version
 |Dalston.RELEASE
