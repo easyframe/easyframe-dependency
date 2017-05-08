@@ -1,0 +1,12 @@
+sudo: required
+
+language: java
+
+services:
+  - docker
+
+jdk:
+  - oraclejdk8
+
+script:
+  - ./mvnw clean package
