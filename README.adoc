@@ -2,7 +2,7 @@
 
 easyframe: Dependency
 
-Travis CI: image:https://travis-ci.org/easyframe/easyframe-dependency.svg?branch=develop[Status, link=https://travis-ci.org/easyframe/easyframe-dependency]
+Travis CI: image:https://travis-ci.org/easyframe/easyframe-dependency.svg?branch=master[Status, link=https://travis-ci.org/easyframe/easyframe-dependency]
 
 == Marjor dependency
 

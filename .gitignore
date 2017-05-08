@@ -5,6 +5,7 @@ target/
 *.zip
 *.tar
 *.tar.gz
+!.mvn/wrapper/maven-wrapper.jar
 
 # eclipse ignore
 .settings/
