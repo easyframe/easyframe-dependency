@@ -6,17 +6,17 @@ Travis CI: image:https://travis-ci.org/easyframe/easyframe-dependency.svg?branch
 
 == Marjor dependency
 
-.1.0.2
+1.1.1
 |===
 |Package |Version
 
 |spring-boot.version
-|1.5.6.RELEASE
+|1.5.12.RELEASE
 
 |spring-boot-admin.version
-|1.5.3
+|1.5.7
 
 |spring-cloud.version
-|Dalston.SR2
+|Edgware.SR3
 |
 |===
